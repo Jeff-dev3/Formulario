@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Form</title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+
+</head>
+<body>
+<main>
+<article>
+        <div class="title">
+            <h1> Quer se tornar um <br> <a href="#">Dev Front end?</a></h1>
+        </div>
+
+       <div class="texto">
+        <p>
+            O mercado de trabalho está cada vez mais competitivo, as empresas
+            buscam referências de qualidade e conhecimento. Há uma vaga esperando por você!
+        </p>
+        <p> 
+            Seja um Quester!
+        </p>
+        </div>
+</article>
+    <br><br>
+<aside>
+<div class="form-container">
+    
+    <form method="get" action="">
+        
+        <h1>Inscreva-se aqui</h1>
+
+        <div class="nome-completo">
+                <input type="text" name="user" id="name" placeholder="nome" class="name" required> 
+                <input type="text" name="user" id="name" placeholder="sobrenome" class="name" required>
+        </div>
+        <div class="demais-informs">
+                <input type="email" name="email" id="email" placeholder="email" required>
+                <input type="text" name="usuário" id="user-name" placeholder="nome de usuário" required>
+                <input type="password" name="password" id="password" autocomplete="off" placeholder="nova senha" required>
+                <input type="text" name="telefone" id="telefone" placeholder="Telefone" required>
+                    <select name="genero" id="genero" required>
+                        <option value="Masculino"> Masculino</option>
+                        <option value="Feminino"> Feminino</option>
+                        <option value="Outro">Outro</option>
+                    </select>
+
+        </div>     
+
+        <div class="btns">
+            <input onclick="confirmarEnvio()" type="submit" value="enviar" id="enviar">
+            <input type="reset" value="limpar" id="limpar">
+        </div>
+        
+</div>
+</form>
+</aside>
+</main>
+<br>
+<footer>
+    <h4> <a href="https://www.instagram.com/jeff3rson.1" target="_blank"> By Jefferson Oliveira</a></h4>
+</footer>
+</body>
+
+<script src="./src/js/index.js"></script>
+
+</html>
+
